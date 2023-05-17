@@ -1,0 +1,59 @@
+.input-list input{
+    height: 30px;
+    width: 400px;
+    border-radius: 20px;
+    text-align: center;
+    color:blue;
+    text-transform: capitalize;
+    font-style: italic;
+    font-size: large;
+}
+.input-list button{
+    height: 30px;
+    width: 40px;
+    font-size: large;
+    background-color: blueviolet;
+    color:white;
+    font-weight: bold;
+}
+.album-template{
+    height:auto;
+    width: 900px;
+    background-color:gray;
+    margin-top: 2rem;
+    margin-left: 20rem;
+    border-radius: 25px;
+    position: relative;
+}
+.album-data{
+    height: 70px;
+    width:400px;
+    background-color: darkolivegreen;
+    border-radius: 15px;
+    margin-left:5rem;
+    position: absolute;
+    top:10px;
+    display: flex;
+}
+button{
+    height: 30px;
+    width: 40px;
+    font-size: large;
+    background-color: cadetblue;
+    
+
+
+     
+}
+.edit{
+    position: absolute;
+    left:300px;
+    top:15px;
+    border-radius: 5px;
+}
+.delete{
+    position: absolute;
+    left:340px;
+    top:15px;
+    border-radius:5px;
+}
