@@ -20,6 +20,9 @@ const Album = () => {
               {
                 return {...ele,title:input}
               }
+              localStorage.setItem("userId",ele.userId);
+              localStorage.setItem("id",ele.id)
+              localStorage.setItem("title",ele.title);
               return ele;
             }))
             setInput('');
@@ -29,6 +32,9 @@ const Album = () => {
         else{
             const allInputData={userId:new Date().getTime().toString(), id:new Date().getTime().toString(),title:input};
       setAlbumData([...albumData, allInputData]);
+      localStorage.setItem("userId",albumData.userId);
+      localStorage.setItem("id",allInputData.id);
+      localStorage.setItem("title",allInputData.title)
       setInput('');
         }
     
